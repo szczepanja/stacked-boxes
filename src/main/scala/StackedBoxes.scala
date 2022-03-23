@@ -1,6 +1,6 @@
 object StackedBoxes extends App {
   val ls = args.sortBy(_.length)
-  val maxL = ls(ls.length - 1).length
+  val maxL = ls.last.length
   println(" " * ((maxL / 2) - 1) + "*" * 3)
   println(" " * ((maxL / 2) - 1) + "|" * 3)
 
