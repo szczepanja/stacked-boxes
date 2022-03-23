@@ -18,5 +18,6 @@ object StackedBoxes extends App {
   }
 
   boxWord()
+
 }
 
