@@ -8,7 +8,7 @@ object StackedBoxes extends App {
     ls.foreach(l => {
       var spaceN = (maxL - l.length) / 2
 
-      if (ls.indexOf(l) == ls.length - 1) {
+      if (l == ls.last) {
         println("+" + "-" * (l.length) + "+")
         println(" " * spaceN + "|" + l + "|")
         println("+" + "-" * (l.length) + "+")
