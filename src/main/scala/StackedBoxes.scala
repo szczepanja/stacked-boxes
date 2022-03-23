@@ -6,7 +6,7 @@ object StackedBoxes extends App {
 
   def boxWord(): Unit = {
     ls.foreach(l => {
-      var spaceN = (maxL - l.length) / 2
+      val spaceN = (maxL - l.length) / 2
 
       if (l == ls.last) {
         println("+" + "-" * (l.length) + "+")
